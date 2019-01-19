@@ -2,9 +2,11 @@
 
 ## The Purpose of this Document
 
-Using solutions like GitBash, Babun, or MinTTY are great if you are just starting out programming on a Windows machine. But if you want to harness the full power of a customizable UNIX based terminal, like you see all the "cool" developers doing on YouTube :wink:, then it's great to have the full power of Linux on your windows machine. :computer:
+First off, this document is aimed at those will little or no experience working in the command line.
 
-Luckily, with the introduction of the Windows Subsystem for Linux (WSL) a few years ago, Windows developers can run a full Linux environment natively on their machines.
+Using solutions like [GitBash](https://gitforwindows.org/), [Babun](http://babun.github.io/), or [MinTTY](https://mintty.github.io/) are great if you are just starting out programming on a Windows machine (I'm not even going to mention the default Windows command line shells). However, these are all just emulators of a real UNIX shell with many caveats and missing features. If you want to harness the full power of a customizable UNIX based terminal, like you see all the "cool" developers doing on YouTube :wink:, then it's great to have the full power of Linux on your windows machine. :computer:
+
+Luckily, with the introduction of the [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about) (WSL) a few years ago, Windows developers can run a full Linux environment natively on their machines. Giving them access to much more than previously available.
 
 With great shells like Z-Shell (Zsh) and awesome shell configuration tools like Oh-My-Zsh, you can customize your terminal on your PC to help with many quality of life improvements via plugins and configurations to help be a more efficient developer and do more. (There are other shells and config tools besides Zsh and OMZ, but this guide will focus on those). Have fun and enjoy! :tada:
 
@@ -12,7 +14,7 @@ With great shells like Z-Shell (Zsh) and awesome shell configuration tools like 
 
 > _**It is very important to follow these steps in the correct order. It is strongly recommended that you read through the documentation of each of the technologies we will be using in this guide to familiarize yourself with them.**_
 >
-> There may be errors still in this guide, if you run into anything that is not correct, please submit a pull request! Thanks.
+> \*\* There may be errors still in this guide, if you run into anything that is not correct, please submit a pull request! Thanks.
 
 ## Things to do before starting this guide
 
@@ -41,6 +43,8 @@ _For additional reference you may refer to [Microsoft's documentation](https://d
 
 _The default command line shell for Linux is Bash, which is fine. However, we are going to use Zsh (also known as Z-Shell). Zsh has many ease of use benefits as well as the ability to customize your Linux shell with Oh-My-Zsh. Oh-My-Zsh allows us to install many useful plugins as well as change the look and feel of your terminal which can greaty increase developer productivity when working in the command line._
 
+We will not be discussing the full range of amazing plugins and settings that can be used in Oh-My-Zsh in this guide. I plan on adding additional documentation on this later.
+
 Some of the time saving and convenience benifits of using Zsh with Oh-My-Zsh include:
 
 - Command validation
@@ -50,6 +54,11 @@ Some of the time saving and convenience benifits of using Zsh with Oh-My-Zsh inc
 - Directory history
 - Strong auto complete functionality
 - Many useful plugins
+
+**RESOURCES**:
+
+- [Z-shell docs](http://zsh.sourceforge.net/) (WARNING: old school AF, probably not super useful)
+- [Oh-My-Zsh docs](https://github.com/robbyrussell/oh-my-zsh) - Amazing resource!
 
 **_i. Install Zsh_**
 
