@@ -1,6 +1,8 @@
 # Setting Up Zsh Terminal on Windows 10
 
-> _It is very important to follow these steps in the correct order. It is strongly recommended that you read through the documentation of each of the technologies we will be using in this guide to familiarize yourself with them._
+> _**It is very important to follow these steps in the correct order. It is strongly recommended that you read through the documentation of each of the technologies we will be using in this guide to familiarize yourself with them.**_
+>
+> There may be errors still in this guide, if you run into anything that is not correct, please submit a pull request! Thanks.
 
 ## Things to do before starting this guide
 
@@ -130,7 +132,7 @@ We are going to install a utility called Node Version Manager to handle our Node
 
 ## 5. Install Git for Windows (_Optional_)
 
-> **NOTE**: Git for Windows is included in the full version of Cmder. Only complete this step if you are not using Cmder.
+> **NOTE**: Git for Windows is included in the full version of Cmder. Only complete this step if you are not using Cmder. This will allow us to use Git in the Windows command line and Powershell.
 
 1. Download Git for Windows [**here**](https://git-scm.com/download/win).
 2. Click 'Next' and on the following `Select Components` screen, choose at least the following options and click 'Next':
