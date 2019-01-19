@@ -1,5 +1,15 @@
 # Setting Up Zsh Terminal on Windows 10
 
+## The Purpose of this Document
+
+Using solutions like GitBash, Babun, or MinTTY are great if you are just starting out programming on a Windows machine. But if you want to harness the full power of a customizable UNIX based terminal, like you see all the "cool" developers doing on YouTube :wink:, then it's great to have the full power of Linux on your windows machine. :computer:
+
+Luckily, with the introduction of the Windows Subsystem for Linux (WSL) a few years ago, Windows developers can run a full Linux environment natively on their machines.
+
+With great shells like Z-Shell (Zsh) and awesome shell configuration tools like Oh-My-Zsh, you can customize your terminal on your PC to help with many quality of life improvements via plugins and configurations to help be a more efficient developer and do more. (There are other shells and config tools besides Zsh and OMZ, but this guide will focus on those). Have fun and enjoy! :tada:
+
+## Read this Before Continuing!
+
 > _**It is very important to follow these steps in the correct order. It is strongly recommended that you read through the documentation of each of the technologies we will be using in this guide to familiarize yourself with them.**_
 >
 > There may be errors still in this guide, if you run into anything that is not correct, please submit a pull request! Thanks.
